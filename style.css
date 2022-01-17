@@ -9,7 +9,7 @@ div button {
     margin: 0 auto;
 }
 
-.flex-box-container {
+.flex-box-container, .flex-box-rps {
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
@@ -22,3 +22,20 @@ div #cat-gen-button {
     margin-bottom: 10px;
     width: 125px;
 }
+
+.flex-box-rps img {
+    height: 150px;
+    width:  150px;
+}
+
+.flex-box-rps #rock:hover {
+    box-shadow: 0px 10px 50px rgba(52, 119, 219, 0.7);
+  }
+  
+  .flex-box-rps #paper:hover {
+    box-shadow: 0px 10px 50px rgba(219, 52, 60, 0.7);
+  }
+  
+  .flex-box-rps #scissors:hover {
+    box-shadow: 0px 10px 50px rgba(52, 219, 127, 0.7);
+  }
