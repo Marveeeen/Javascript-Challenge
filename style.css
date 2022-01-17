@@ -17,3 +17,8 @@ div button {
     flex-direction: row;
     padding: 10px;
 }
+
+div #cat-gen-button {
+    margin-bottom: 10px;
+    width: 125px;
+}

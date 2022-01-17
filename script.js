@@ -24,3 +24,17 @@ function reset() {
     document.getElementById('ageInDays').remove();
 }
 
+
+// Challenge 2: Generate a cat
+
+const catBtn = document.getElementById('cat-gen-button')
+
+catBtn.addEventListener('click', () => generateCat())
+
+function generateCat() {
+    let image = document.createElement('img');
+    let flexbox = document.getElementById('flex-box')
+    image.src = "https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small";
+    flexbox.appendChild(image)
+    
+}
