@@ -1,0 +1,19 @@
+div button {
+    width: 20%;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.flex-box-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
