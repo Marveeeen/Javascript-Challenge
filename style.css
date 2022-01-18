@@ -9,7 +9,7 @@ div button {
     margin: 0 auto;
 }
 
-.flex-box-container, .flex-box-rps {
+.flex-box-container, .flex-box-rps, .flex-box-pick-color {
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
