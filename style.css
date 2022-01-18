@@ -9,7 +9,7 @@ div button {
     margin: 0 auto;
 }
 
-.flex-box-container, .flex-box-rps, .flex-box-pick-color {
+.flex-box-container, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-1, .flex-blackjack-3 {
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
@@ -30,12 +30,78 @@ div #cat-gen-button {
 
 .flex-box-rps #rock:hover {
     box-shadow: 0px 10px 50px rgba(52, 119, 219, 0.7);
-  }
+}
   
-  .flex-box-rps #paper:hover {
+.flex-box-rps #paper:hover {
     box-shadow: 0px 10px 50px rgba(219, 52, 60, 0.7);
-  }
+}
   
-  .flex-box-rps #scissors:hover {
+.flex-box-rps #scissors:hover {
     box-shadow: 0px 10px 50px rgba(52, 219, 127, 0.7);
-  }
+}
+
+.flex-box-container div, .flex-box-rps div, .flex-blackjack-2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex-box-container img {
+    box-shadow: 0px 10px 50px rgba(104, 91, 91, 0.7);
+    margin: 10px;
+}
+
+.flex-blackjack-1, .flex-blackjack-2 {
+    background: url("https://media.istockphoto.com/photos/poker-table-picture-id1046326882?k=20&m=1046326882&s=612x612&w=0&h=G7D7aw9iB8p1A9LH26O9e6p8Pt5p82B44MbWPrIZmRo=") center no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+.flex-blackjack-1 div {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+  
+.flex-blackjack-1 img {
+    width: 25%;
+}
+
+.flex-blackjack-2 div button {
+    width: 35%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table,th,td {
+    padding: 5px;
+    border: 1px solid black;
+}
+  
+
+
+/** MEDIA QUERY **/
+
+@media (min-width: 1200px) {
+    .flex-blackjack-1 div {
+      height: 390px;
+    }
+  
+    .flex-blackjack-1 div img {
+      width: 20%;
+      margin: 5px;
+    }
+}
+
+  @media (max-width: 1199px) {
+    .flex-blackjack-1 div {
+      height: 340px;
+    }
+  
+    .flex-blackjack-1 div img {
+      width: 20%;
+      margin: 5px;
+    }
+}

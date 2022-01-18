@@ -63,7 +63,7 @@
     </div>
 
     <div class="container">
-        <h2 id="change-my-color">Challenge 4: Change the Color of All Buttons</h2>
+        <h2>Challenge 4: Change the Color of All Buttons</h2>
 
         <div class="flex-box-pick-color">
             <form action="">
@@ -85,6 +85,45 @@
             <button class="btn btn-success">Facebook!</button>
         </div>
     </div>
+
+    <div class="container">
+        <h2>Challenge 5: BlackJack</h2>
+        <h3><span id="blackjack-result">Let's Play</span></h3>
+        <div class="flex-blackjack-1">
+            <div id="your-box">
+                <h2>You: <span id="your-blackjack-result">0</span></h2>
+            </div>
+
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div>
+
+        <div class="flex-blackjack-2">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+                <button class="btn-lg btn-danger mr-2" id="blackjack-deal-button">Deal</button>
+            </div>
+        </div>
+
+        <div class="flex-blackjack-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
 
     <script src="script.js"></script>
 </body>
